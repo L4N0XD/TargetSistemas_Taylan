@@ -1,7 +1,7 @@
 import json
 
 # leitura do arquivo JSON
-with open("C:/Users/lanin/OneDrive/Área de Trabalho/Projetos/projetos python/dados.json") as json_file:
+with open("dados.json") as json_file:
     dados = json.load(json_file)
 
 # cria uma lista faturamento com valores != de Zero
